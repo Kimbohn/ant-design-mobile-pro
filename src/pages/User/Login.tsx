@@ -46,7 +46,7 @@ const setItems: (form: any, config: any) => ItemConfig[] = (form, config) => {
       },
       componentProps: {
         type: "password",
-        placeholder: "请输入密码：password",
+        placeholder: "请输入密码：123456",
         autoComplete: 'off',
         labelNumber: 1,
         onKeyPress: handleKeyPress

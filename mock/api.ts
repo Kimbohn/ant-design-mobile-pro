@@ -3,7 +3,7 @@ import { delay } from 'roadhog-api-doc';
 export default delay({
   'POST /api/login/account': (req, res) => {
     const { password, username } = req.body;
-    if (password === 'password' && username === 'admin') {
+    if (password === '123456' && username === 'admin') {
       res.send({
         status: 'ok',
         currentAuthority: 'admin',
