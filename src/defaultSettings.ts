@@ -6,6 +6,6 @@ module.exports = {
   // Usage: https://github.com/ant-design/ant-design-pro/pull/3517
   iconfontUrl: '//at.alicdn.com/t/font_1347723_76wwxr8lpwf.js',
 
-  base: '/ant-design-mobile-pro/',
-  publicPath: '/ant-design-mobile-pro/',
+  base: '/',
+  publicPath: '/',
 };
