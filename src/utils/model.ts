@@ -27,5 +27,5 @@ export function getList(response) {
 }
 
 export function isResponseOk(response) {
-  return response && response.code === 200;
+  return response && response.code === 2000;
 }
